@@ -2,8 +2,8 @@
 - The player encounters an enemy as they move through the map (esentially random encounters)
 - boss battles 
 - The battle ends when either the enemies or the player dies first
-- If the enemies dies first, the player will be rewarded EXP points and maybe an item (healing items, objective related items, etc.)
-- If the player dies, game over
+  - If the enemies dies first, the player will be rewarded EXP points and maybe an item (healing items, objective related items, etc.)
+  - If the player dies, game over
 - Turn order will be determined by speed stat
   - For example:
     - Fighting an enemy:
@@ -18,3 +18,11 @@
       2. Player
       3. Enemy
       4. Enemy
+- Player Commands:
+  - Attack - decreases current health by strength stat
+  - Defend - adds defend's value to health when called
+  - Use Item - able to use any comsumable item in their enventory
+  - Flee - ramdom chance to escape a battle based on the luck stat
+- Enemy commands:
+  - Attack
+  - Defend
