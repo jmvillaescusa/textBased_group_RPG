@@ -21,7 +21,9 @@
     <ClInclude Include="Map.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Fight.h">
+
+    <ClInclude Include="Player.h">
+
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,7 +37,9 @@
     <ClCompile Include="Map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Fight.cpp">
+
+    <ClCompile Include="Player.cpp">
+
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
