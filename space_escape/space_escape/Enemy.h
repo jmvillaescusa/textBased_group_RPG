@@ -15,9 +15,6 @@ private:
 
 public:
 
-	EnemyClass();
-	~EnemyClass();
-
 	int getHealth() { return health; }
 	void setHealth(unsigned int e_health) { health = e_health; }
 

@@ -11,9 +11,9 @@ GuardClass ::~GuardClass(){}
 void GuardClass::GuardStats() {
 	cout << endl;
 	cout << "Guard Stats:" << endl;
-	cout << this->getHealth << endl;
-	cout << this->getPower << endl;
-	cout << this->getDeffence << endl;
+	cout << getHealth() << endl;
+	cout << getPower() << endl;
+	cout << getDeffence() << endl;
 
 }
 

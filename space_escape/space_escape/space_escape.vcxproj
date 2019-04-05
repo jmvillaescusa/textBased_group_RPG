@@ -158,7 +158,6 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Guards.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="pch.cpp">
