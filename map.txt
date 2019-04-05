@@ -10,6 +10,7 @@ Legend | Display Size - x = 20, y = 11
 'D' - Door
 
 Items:
+'K' - key, unlocks doors
 'S' - Light Shiv - +5 strength
 'R' - Rations - regenerates health, dropped by enemies
 'P' - Pew-Pew Rifle - +10 strength
