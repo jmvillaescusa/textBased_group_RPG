@@ -16,18 +16,13 @@ void Map::DislayMap() {
 };
 char Map::MapIndex(int temp) {
 	switch (temp) {
-	case 0:
-		return NOTHING;
-	case 1:
-		return WALL;
-	case 2:
-		return SPACE;
-	case 3:
-		return AVATAR;
-	case 4:
-		return NPC;
-	case 5:
-		return DOOR;
+	case 0: return NOTHING;
+	case 1:	return WALL;
+	case 2: return SPACE;
+	case 3:	return AVATAR;
+	case 4: return NPC;
+	case 5: return DOOR;
+	case 6: return BOSS;
 	default:
 		NULL;
 	}
