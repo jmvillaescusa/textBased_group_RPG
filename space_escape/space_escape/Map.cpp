@@ -5,10 +5,11 @@ Map::Map() {
 }; Map::~Map() {};
 
 void Map::DislayMap() {
+	system("CLS");
 	char temp;
 	for (int i = 0; i < 11; i++) {
 		for (int j = 0; j < 20; j++) {
-			temp = MapIndex(area1_2[i][j]);
+			temp = MapIndex(area1_1[i][j]);
 			std::cout << temp;
 		}
 		std::cout << std::endl;
