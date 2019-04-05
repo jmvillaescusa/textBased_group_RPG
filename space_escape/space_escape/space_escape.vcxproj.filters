@@ -22,10 +22,22 @@
       <Filter>Header Files</Filter>
     </ClInclude>
 
+
     <ClInclude Include="Player.h">
 
       <Filter>Header Files</Filter>
     </ClInclude>
+
+    <ClInclude Include="Basestat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Guards.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -38,9 +50,14 @@
       <Filter>Source Files</Filter>
     </ClCompile>
 
+
     <ClCompile Include="Player.cpp">
 
       <Filter>Source Files</Filter>
+
+    <ClCompile Include="Guards.cpp">
+      <Filter>Header Files</Filter>
+
     </ClCompile>
   </ItemGroup>
 </Project>
