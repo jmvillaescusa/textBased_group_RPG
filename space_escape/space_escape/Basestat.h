@@ -20,8 +20,7 @@ public:
 
 public:
 
-	BaseStatClass();
-	~BaseStatClass();
+	
 
 	int getHealth() { return health; }
 	void setHealth(unsigned int m_health) { health = m_health; }

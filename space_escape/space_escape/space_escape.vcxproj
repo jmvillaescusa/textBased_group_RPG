@@ -153,10 +153,13 @@
   <ItemGroup>
     <ClInclude Include="Basestat.h" />
     <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Guards.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Guards.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

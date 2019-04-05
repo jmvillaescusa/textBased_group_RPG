@@ -3,6 +3,8 @@
 #ifndef ENEMY_H
 #define ENEMY_H
 
+#include"Basestat.h"
+
 class EnemyClass {
 private:
 	unsigned int health;
