@@ -10,7 +10,7 @@
 #include <algorithm>
 using namespace std;
 
-class BaseStatClass {
+class BaseStats {
 public: 
 	int health;
 	int speed;

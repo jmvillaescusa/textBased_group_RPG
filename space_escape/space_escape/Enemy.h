@@ -5,7 +5,7 @@
 
 #include"Basestat.h"
 
-class EnemyClass : public BaseStatClass {
+class Enemy : public BaseStats {
 public:
 	int getHealth() { return health; }
 	void setHealth(unsigned int e_health) { health = e_health; }

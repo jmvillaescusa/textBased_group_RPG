@@ -6,6 +6,8 @@ Player::Player() {
 	defense = 40;
 	power = 50;
 	speed = 30;
+	playerPosX = 4;
+	playerPosY = 1;
 } Player::~Player(){}
 
 void Player::Update() {

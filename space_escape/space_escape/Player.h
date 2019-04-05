@@ -2,9 +2,11 @@
 #include <time.h>
 #include "Basestat.h"
 
-class Player : public BaseStatClass {
+class Player : public BaseStats {
 private:
 	int luck;
+	int playerPosX;
+	int playerPosY;
 
 public:
 	int getLuck() { return luck; }
