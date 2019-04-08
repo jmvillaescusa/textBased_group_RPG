@@ -2,10 +2,6 @@
 
 #include "Player.h"
 #include <conio.h>
-#include "Basestat.h"
-#include "Enemy.h"
-#include "Guards.h"
-#include <iostream>
 
 //Controls for player movement
 #define KEY_UP 72
@@ -15,13 +11,25 @@
 
 int main()
 {
-	GuardClass Guard;
 	Player player;
 	bool isRunning = true;
+
+#include "Basestat.h"
+#include "Enemy.h"
+#include "Guards.h"
+#include <iostream>
+
+GuardClass Guard;
+
+int main()
+{
+	
+
 	Map m;
 	m.DislayMap();
 	int c = 0;
-
+	int playerPosX = 4;
+	int playerPosY = 1;
 
 	while (isRunning) {
 		player.Update();
