@@ -1,21 +1,16 @@
 #pragma once
 #include <time.h>
+#include "Basestat.h"
 
-class Player {
+class Player : public BaseStats {
 private:
-	int Health;
-	int Defense;
-	int Attack;
-	int Speed;
+	int luck;
+	int playerPosX;
+	int playerPosY;
 
 public:
-	
-
-	int setHealth(int h) { Health = h; }
-	int setDefence(int d) { Defense = d; }
-	int setAttack(int a) { Attack = a; }
-	int setSpeed(int s) { Speed = s; }
-
+	int getLuck() { return luck; }
+	void setLuck(int m_luck) { luck = m_luck; }
 
 	void Update();
 	Player();

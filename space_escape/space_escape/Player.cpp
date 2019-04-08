@@ -2,10 +2,12 @@
 
 Player::Player() {
 	//player stats/variables
-	Health = 100;
-	Defense = 40;
-	Attack = 50;
-	Speed = 30;
+	health = 100;
+	defense = 40;
+	power = 50;
+	speed = 30;
+	playerPosX = 4;
+	playerPosY = 1;
 } Player::~Player(){}
 
 void Player::Update() {

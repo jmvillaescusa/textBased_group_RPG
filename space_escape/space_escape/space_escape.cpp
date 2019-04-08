@@ -4,6 +4,7 @@
 #include "Guards.h"
 #include "Player.h"
 #include <conio.h>
+
 #include <iostream>
 
 //Controls for player movement
@@ -15,16 +16,17 @@
 Player player;
 GuardClass Guard;
 
+
 int main()
 {
-	
-	
+	GuardClass Guard;
+	Player player;
+
 	bool isRunning = true;
 	Map m;
 	m.DislayMap();
 	int c = 0;
-	int playerPosX = 4;
-	int playerPosY = 1;
+
 
 	while (isRunning) {
 		player.Update();
