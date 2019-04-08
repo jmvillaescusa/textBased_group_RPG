@@ -14,6 +14,7 @@ public:
 	GuardClass();
 	~GuardClass();
 	void GuardStats();
+	void GuardDialogue(int);
 
 };
 
