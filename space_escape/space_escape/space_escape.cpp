@@ -13,6 +13,18 @@ int main()
 {
 	Player player;
 	bool isRunning = true;
+
+#include "Basestat.h"
+#include "Enemy.h"
+#include "Guards.h"
+#include <iostream>
+
+GuardClass Guard;
+
+int main()
+{
+	
+
 	Map m;
 	m.DislayMap();
 	int c = 0;
