@@ -12,6 +12,8 @@ BossClass::~BossClass() {}
 
 void BossClass::BossStats() {
 	cout << endl;
+
+	//displays the stat on the screen
 	cout << "Boss Stat:" << endl;
 	cout << "Health:" << this->getHealth() << endl;
 	cout << "Power:" << this->getPower() << endl;

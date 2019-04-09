@@ -1,0 +1,23 @@
+April 9,2019
+
+Jameison
+-absent yesterday
+-working on battle sysystem with multiple enemies
+-trying to complete a turn base battle system with 
+multiple enemies is whats holding him back
+
+Dylan
+-work got erased
+-redo work
+-There's nothing holding me back
+
+Jeff
+-complete some of the items
+-finish adding the items
+-There's nothing holding me back
+
+Ace Dragonair(Aaron)
+-finished & worked on getting any updated version on git hub
+-battle system
+-There's nothing holding me back
+

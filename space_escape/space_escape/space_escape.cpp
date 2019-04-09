@@ -20,12 +20,14 @@ GuardClass Guard;
 
 void MenuScreen();
 void Game();
+void EndGame();
 
 int main()
 {
 
 
 	MenuScreen();
+
 
 	return 0;
 }
@@ -46,7 +48,7 @@ void MenuScreen() {
 	}
 	else if (ans == 'n')
 	{
-
+		EndGame();
 		return;
 	}
 }
@@ -65,4 +67,16 @@ void Game() {
 
 		//Player Movement
 	}
+	system("CLS");
+	EndGame();
+
+}
+void EndGame() {
+	cout << "\n\n\n\tGood Game!" << endl;
+	cout << "\n\tHope Your had fun here are the developers names: " << endl;
+	cout << "\t" << endl;
+	cout << "\t" << endl;
+	cout << "\t" << endl;
+	cout << "\t" << endl;
+
 }

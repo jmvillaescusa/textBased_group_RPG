@@ -5,8 +5,10 @@
 
 #include "Enemy.h"
 
-class BossClass :public Enemy {
+class BossClass :public EnemyClass {
 private:
+	
+	//holds the information of the boss stat
 	unsigned int health;
 	int speed;
 	int power;
@@ -16,12 +18,14 @@ private:
 public:
 	BossClass();
 	~BossClass();
+
+	//function that shows the boss current stat
 	void BossStats();
+
+	//function to call for the boss dialogue
 	void BossDialogue();
 
 };
-
-
 
 
 #endif // !BOSS_H

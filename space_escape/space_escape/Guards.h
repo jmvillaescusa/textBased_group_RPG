@@ -4,8 +4,10 @@
 
 #include "Enemy.h"
 
-class GuardClass : public Enemy {
+class GuardClass : public BaseStatClass {
 private:
+	
+	//holds the stat information of the guard
 	unsigned int health;
 	int speed;
 	int power;
@@ -13,7 +15,11 @@ private:
 public:
 	GuardClass();
 	~GuardClass();
+
+	//function to display guard stat
 	void GuardStats();
+
+	//function to display guard dialogue
 	void GuardDialogue(int);
 
 };

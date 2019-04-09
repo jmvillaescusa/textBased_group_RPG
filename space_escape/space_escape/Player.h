@@ -7,12 +7,11 @@ private:
 	int luck;
 
 public:
-	int getLuck() { return luck; }
-	void setLuck(int m_luck) { luck = m_luck; }
 
 	void Update();
 	Player();
 	~Player();
-	//bool isRunning = true;
+
+
 };
 
