@@ -2,7 +2,7 @@
 
 Player::Player() {
 	//player stats/variables
-
+<<<<<<< HEAD
 	int Health = 100;
 	int Defense = 40;
 	int Attack = 50;
@@ -13,17 +13,13 @@ Player::Player() {
 
 Player::~Player(){}
 
-
+=======
 	health = 100;
 	defense = 40;
 	power = 50;
 	speed = 30;
-
-	setHealth(100);
-	setDefense(40);
-	setPower(50);
-	setSpeed(30);
-
+} Player::~Player(){}
+>>>>>>> parent of 37edd26... w
 
 void Player::Update() {
 	

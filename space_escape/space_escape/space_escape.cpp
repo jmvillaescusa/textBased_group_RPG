@@ -2,11 +2,6 @@
 #include "Map.h"
 #include "Player.h"
 #include <conio.h>
-#include "Basestat.h"
-
-#include "Enemy.h"
-#include "Guards.h"
-
 
 //Controls for player movement
 #define KEY_UP 72
@@ -19,16 +14,16 @@ int main()
 	Player player;
 	bool isRunning = true;
 
-
-
+#include "Basestat.h"
+#include "Enemy.h"
+#include "Guards.h"
+#include <iostream>
 
 GuardClass Guard;
 
 int main()
 {
 	
-
-	GuardClass Guard;
 
 	Map m;
 	m.DislayMap();
