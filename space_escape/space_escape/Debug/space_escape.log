@@ -1,5 +1,5 @@
-﻿  Map.cpp
-  space_escape.cpp
+﻿  Guards.cpp
+  Map.cpp
   Generating Code...
-c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\map.cpp(30): warning C4715: 'Map::MapIndex': not all control paths return a value
+c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\map.cpp(32): warning C4715: 'Map::MapIndex': not all control paths return a value
 LINK : fatal error LNK1104: cannot open file 'C:\_Projects\GameDev\textBased_group_RPG\space_escape\Debug\space_escape.exe'

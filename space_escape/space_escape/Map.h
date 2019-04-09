@@ -2,7 +2,9 @@
 #include <iostream>
 
 class Map {
-private:                       //Map Index
+private:                      
+	//Map Index
+	//Each number corresponds to the position of the map
 	const char AVATAR = '@';   // 3
 	const char WALL = '#';     // 1
 	const char NOTHING = ' ';  // 0
@@ -11,6 +13,7 @@ private:                       //Map Index
 	const char DOOR = 'D';     // 5
 	const char BOSS = 'B';     // 6
 
+	//Maps
 	int area1_1[11][20] = { {0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,0,0},
 						    {0,1,2,2,3,2,2,1,0,0,0,1,2,2,2,2,2,1,0,0},
 						    {0,1,2,2,2,2,2,1,0,0,0,1,2,2,2,2,2,1,0,0},
