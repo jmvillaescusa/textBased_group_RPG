@@ -3,7 +3,7 @@
 GuardClass :: GuardClass() {
 	setHealth(100);
 	setPower(5);
-	setDeffence(10);
+	setDefense(10);
 
 }
 GuardClass ::~GuardClass(){}
@@ -13,7 +13,7 @@ void GuardClass::GuardStats() {
 	cout << "Guard Stats:" << endl;
 	cout << getHealth() << endl;
 	cout << getPower() << endl;
-	cout << getDeffence() << endl;
+	cout << getDefense() << endl;
 
 }
 
