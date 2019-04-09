@@ -5,6 +5,10 @@
 #include "Enemy.h"
 
 class GuardClass : public EnemyClass {
+private:
+	unsigned int health;
+	int speed;
+	int power;
 
 public:
 	GuardClass();
