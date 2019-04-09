@@ -1,6 +1,10 @@
 #pragma once
 #include <iostream>
 
+#include "Basestat.h"
+#include <vector>
+
+
 class Fight {
 public:
 	Fight();
