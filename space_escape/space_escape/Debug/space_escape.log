@@ -1,2 +1,19 @@
-﻿  Guards.cpp
-  space_escape.vcxproj -> D:\Game Dev\C++\grouRpg\textBased_group_RPG\space_escape\Debug\space_escape.exe
+﻿  pch.cpp
+  Fight.cpp
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\fight.h(10): error C2061: syntax error: identifier 'BaseStatClass'
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\fight.h(11): error C2061: syntax error: identifier 'BaseStatClass'
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\fight.h(12): error C2061: syntax error: identifier 'BaseStatClass'
+  Guards.cpp
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\guards.h(7): error C2504: 'EnemyClass': base class undefined
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\guards.cpp(4): error C3861: 'setHealth': identifier not found
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\guards.cpp(5): error C3861: 'setPower': identifier not found
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\guards.cpp(6): error C3861: 'setDeffence': identifier not found
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\guards.cpp(14): error C3861: 'getHealth': identifier not found
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\guards.cpp(15): error C3861: 'getPower': identifier not found
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\guards.cpp(16): error C3861: 'getDeffence': identifier not found
+  Map.cpp
+  Player.cpp
+  space_escape.cpp
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\guards.h(7): error C2504: 'EnemyClass': base class undefined
+  Generating Code...
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\map.cpp(30): warning C4715: 'Map::MapIndex': not all control paths return a value

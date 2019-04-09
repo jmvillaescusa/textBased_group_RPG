@@ -4,7 +4,7 @@
 
 #include "Enemy.h"
 
-class GuardClass : public EnemyClass {
+class GuardClass : public Enemy {
 private:
 	unsigned int health;
 	int speed;

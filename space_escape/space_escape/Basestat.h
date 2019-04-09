@@ -16,6 +16,7 @@ public:
 	int speed;
 	int power;
 	int defense;
+	int luck;
 
 public:
 	int getHealth() { return health; }
@@ -30,6 +31,8 @@ public:
 	int getSpeed() { return speed; }
 	void setSpeed(int m_speed) { speed = m_speed; }
 
+	int getLuck() { return luck; }
+	void setLuck(int m_luck) { luck = m_luck; }
 };
 
 #endif // !BASESTAT_H
