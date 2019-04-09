@@ -14,6 +14,8 @@ private:
 	int defence;
 
 public:
+
+
 	//Getters
 	int GetHeath() { return health; }
 	int GetDamage() { return damage; }
