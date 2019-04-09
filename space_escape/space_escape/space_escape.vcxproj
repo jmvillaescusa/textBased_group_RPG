@@ -160,6 +160,17 @@
   <ItemGroup>
     <ClCompile Include="Items.cpp" />
     <ClCompile Include="LightShiv.cpp" />
+    <ClInclude Include="Fight.h" />
+    <ClInclude Include="Basestat.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Guards.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Player.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Fight.cpp" />
+    <ClCompile Include="Guards.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -168,6 +179,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Rations.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="space_escape.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
