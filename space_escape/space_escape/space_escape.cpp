@@ -2,9 +2,6 @@
 
 #include "Player.h"
 #include <conio.h>
-#include "Enemy.h"
-#include "Guards.h"
-#include <iostream>
 
 //Controls for player movement
 #define KEY_UP 72
@@ -17,7 +14,17 @@ int main()
 	Player player;
 	bool isRunning = true;
 
-	GuardClass Guard;
+#include "Basestat.h"
+#include "Enemy.h"
+#include "Guards.h"
+#include <iostream>
+
+GuardClass Guard;
+
+int main()
+{
+	
+
 	Map m;
 	m.DislayMap();
 	int c = 0;
