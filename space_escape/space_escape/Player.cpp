@@ -1,5 +1,13 @@
 #include "Player.h"
 
+//Controls for player movement
+#define KEY_UP 72
+#define KEY_DOWN 80
+#define KEY_LEFT 75
+#define KEY_RIGHT 77
+
+Map map;
+
 Player::Player() {
 	//player stats/variables
 	setHealth(100);
@@ -9,9 +17,6 @@ Player::Player() {
 } Player::~Player(){}
 
 void Player::Update() {
-	getPlayerPosX();
-	getPlayerPosY();
-
 	Frames frames;
 	bool isPlaying = true;
 
@@ -86,9 +91,9 @@ if (frames.DeltaTime() >= (1.0 / frames.GetFrameRate())) {
 void Player::playerInfo() {
 	cout << endl;
 	cout << "Player Stats:" << endl;
-	cout << getPlayerHealth() << endl;
-	cout << getPlayerSpeed() << endl;
-	cout << getPlayerDefense() << endl;
+	cout << getHealth() << endl;
+	cout << getSpeed() << endl;
+	cout << getDefense() << endl;
 
 }
 

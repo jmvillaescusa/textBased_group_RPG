@@ -1,7 +1,5 @@
-
-﻿  Guards.cpp
-  Map.cpp
-  Generating Code...
-c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\map.cpp(32): warning C4715: 'Map::MapIndex': not all control paths return a value
-LINK : fatal error LNK1104: cannot open file 'C:\_Projects\GameDev\textBased_group_RPG\space_escape\Debug\space_escape.exe'
-﻿  space_escape.vcxproj -> C:\Users\Dylan\Desktop\GameDev\Projects\textBased_group_RPG\space_escape\Debug\space_escape.exe
+﻿  space_escape.cpp
+Player.obj : error LNK2019: unresolved external symbol "public: void __thiscall Frames::Update(void)" (?Update@Frames@@QAEXXZ) referenced in function "public: void __thiscall Player::Update(void)" (?Update@Player@@QAEXXZ)
+Player.obj : error LNK2019: unresolved external symbol "public: __thiscall Frames::Frames(void)" (??0Frames@@QAE@XZ) referenced in function "public: void __thiscall Player::Update(void)" (?Update@Player@@QAEXXZ)
+Player.obj : error LNK2019: unresolved external symbol "public: __thiscall Frames::~Frames(void)" (??1Frames@@QAE@XZ) referenced in function "public: void __thiscall Player::Update(void)" (?Update@Player@@QAEXXZ)
+C:\_Projects\GameDev\textBased_group_RPG\space_escape\Debug\space_escape.exe : fatal error LNK1120: 3 unresolved externals
