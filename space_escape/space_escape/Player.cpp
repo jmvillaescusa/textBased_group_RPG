@@ -1,27 +1,30 @@
 #include "Player.h"
 
+//Controls for player movement
+#define KEY_UP 72
+#define KEY_DOWN 80
+#define KEY_LEFT 75
+#define KEY_RIGHT 77
+
+int c = 0;
+bool isRunning = true;
+
 Player::Player() {
 	//player stats/variables
-<<<<<<< HEAD
-	int Health = 100;
-	int Defense = 40;
-	int Attack = 50;
-	const int Speed = 30;
-
-	int setHealth(int h);
-}
-
-Player::~Player(){}
-
-=======
-	health = 100;
-	defense = 40;
-	power = 50;
-	speed = 30;
+	setHealth(100);
+	setDefense(40);
+	setPower(50);
+	setSpeed(30);
 } Player::~Player(){}
->>>>>>> parent of 37edd26... w
 
 void Player::Update() {
-	
+	getPlayerPosX();
+	getPlayerPosY();
 }
+
+
+	
+
+
+		
 
