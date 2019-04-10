@@ -2,6 +2,7 @@
 #include <time.h>
 #include "Basestat.h"
 #include "Map.h"
+#include "frames.h"
 
 class Player : public BaseStatClass {
 private:

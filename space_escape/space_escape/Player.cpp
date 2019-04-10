@@ -1,4 +1,7 @@
 #include "Player.h"
+#include <conio.h>
+#include "Map.h"
+
 
 //Controls for player movement
 #define KEY_UP 72
@@ -8,6 +11,7 @@
 
 int c = 0;
 bool isRunning = true;
+Map map;
 
 Player::Player() {
 	//player stats/variables
@@ -20,11 +24,73 @@ Player::Player() {
 void Player::Update() {
 	getPlayerPosX();
 	getPlayerPosY();
+
+	Frames frames;
+	bool isPlaying = true;
+
+	int c = 0;
+
+	while (isPlaying) {
+		frames.Update();
+
+if (frames.DeltaTime() >= (1.0 / frames.GetFrameRate())) {
+
+	//std::cout << "timer" << std::endl;
+	//ystem("CLS");
+
+	switch ((c = _getch())) {
+	case KEY_DOWN:
+		if (map.area1_1[playerPosY + 1][playerPosX] == 1) {
+			playerPosY += 0;
+		}
+		else {
+			map.area1_1[playerPosY][playerPosX] = 2;
+			playerPosY += 1;
+			map.area1_1[playerPosY][playerPosX] = 3;
+		}
+		system("CLS");
+		map.DislayMap();
+		break;
+	case KEY_UP:
+		if (map.area1_1[playerPosY - 1][playerPosX] == 1) {
+			playerPosY += 0;
+		}
+		else {
+			map.area1_1[playerPosY][playerPosX] = 2;
+			playerPosY -= 1;
+			map.area1_1[playerPosY][playerPosX] = 3;
+		}
+		system("CLS");
+		map.DislayMap();
+		break;
+	case KEY_LEFT:
+		if (map.area1_1[playerPosY][playerPosX - 1] == 1) {
+			playerPosY += 0;
+		}
+		else {
+			map.area1_1[playerPosY][playerPosX] = 2;
+			playerPosX -= 1;
+			map.area1_1[playerPosY][playerPosX] = 3;
+		}
+		system("CLS");
+		map.DislayMap();
+		break;
+	case KEY_RIGHT:
+		if (map.area1_1[playerPosY][playerPosX + 1] == 1) {
+			playerPosY += 0;
+		}
+		else {
+			map.area1_1[playerPosY][playerPosX] = 2;
+			playerPosX += 1;
+			map.area1_1[playerPosY][playerPosX] = 3;
+		}
+		system("CLS");
+		map.DislayMap();
+		break;
+			}
+		}
+	}
 }
-
-
-	
-
 
 		
 

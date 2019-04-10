@@ -11,19 +11,16 @@
 int main()
 {
 	Player player;
-	
+	bool isRunning = true;
 	int playerPosY = 1;
 	GuardClass Guard;
 	Map m;
 	m.DislayMap();
 	
-
-	Map(AVATAR) {
-		switch ((c = getch())) {
-		case 3:
-
-		}
+	while (isRunning) {
+		player.Update();
 	}
+	
 
 	return 0;
 }
