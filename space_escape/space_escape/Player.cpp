@@ -43,6 +43,9 @@ if (frames.DeltaTime() >= (1.0 / frames.GetFrameRate())) {
 		if (map.area1_1[playerPosY + 1][playerPosX] == 1) {
 			playerPosY += 0;
 		}
+		else if(playerPosY == map.DOOR){
+			map.area1_1[playerPosY + 0][playerPosX] = 0;
+		}
 		else {
 			map.area1_1[playerPosY][playerPosX] = 2;
 			playerPosY += 1;
@@ -90,6 +93,15 @@ if (frames.DeltaTime() >= (1.0 / frames.GetFrameRate())) {
 			}
 		}
 	}
+}
+
+void Player::playerInfo() {
+	cout << endl;
+	cout << "Player Stats:" << endl;
+	cout << getPlayerHealth() << endl;
+	cout << getPlayerSpeed() << endl;
+	cout << getPlayerDefense() << endl;
+
 }
 
 		

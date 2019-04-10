@@ -17,9 +17,9 @@ int main()
 	Map m;
 	m.DislayMap();
 	
-	while (isRunning) {
-		player.Update();
-	}
+	while (isRunning) 
+
+	player.Update();
 	
 
 	return 0;
