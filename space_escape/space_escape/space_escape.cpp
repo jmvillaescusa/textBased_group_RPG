@@ -6,19 +6,20 @@
 #include "Guards.h"
 #include <iostream>
 
-
-
+//Controls for player movement
+#define KEY_UP 72
+#define KEY_DOWN 80
+#define KEY_LEFT 75
+#define KEY_RIGHT 77
 
 int main()
 {
 	Player player;
 	bool isRunning = true;
-	int playerPosY = 1;
 	GuardClass Guard;
 
 	Map m;
 	m.DislayMap();
-	
 	int c = 0;
 	int playerPosX = 4;
 	int playerPosY = 1;
@@ -27,9 +28,7 @@ int main()
 		//player.Update();
 		m.DislayMap();
 		//Player Movement
-		player.Update();
 	}
-
 
 	return 0;
 }
