@@ -2,7 +2,7 @@
 #include <iostream>
 
 class Map {
-private:                       //Map Index
+public:                       //Map Index
 	const char AVATAR = '@';   // 3
 	const char WALL = '#';     // 1
 	const char NOTHING = ' ';  // 0
