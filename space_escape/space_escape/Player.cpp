@@ -44,7 +44,8 @@ if (frames.DeltaTime() >= (1.0 / frames.GetFrameRate())) {
 			playerPosY += 0;
 		}
 		else if(playerPosY == map.DOOR){
-			map.area1_1[playerPosY + 0][playerPosX] = 0;
+			map.area1_1[playerPosY = 0][playerPosX] = 3;
+			playerPosY - 1;
 		}
 		else {
 			map.area1_1[playerPosY][playerPosX] = 2;
