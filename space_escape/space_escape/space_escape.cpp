@@ -25,8 +25,8 @@ int main()
 	int playerPosY = 1;
 
 	while (isRunning) {
-		//player.Update();
-		m.DislayMap();
+		player.Update();
+
 		//Player Movement
 	}
 
