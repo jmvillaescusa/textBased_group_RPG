@@ -5,6 +5,7 @@
 #include "Guards.h"
 #include "Player.h"
 #include <conio.h>
+#include "Fight.h"
 
 #include <iostream>
 
@@ -17,6 +18,7 @@
 
 Player player;
 GuardClass Guard;
+Fight fight;
 
 void MenuScreen();
 void Game();
@@ -64,9 +66,15 @@ void Game() {
 
 	while (isRunning) {
 		player.Update();
-
+		if (player.getHealth() > 0) {
+			isRunning = true;
+		}
+		else {
+			isRunning = false;
+		}
 		//Player Movement
 	}
+	fight.Death();
 	system("CLS");
 	EndGame();
 

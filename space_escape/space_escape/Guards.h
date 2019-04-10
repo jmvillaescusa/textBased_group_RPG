@@ -11,6 +11,7 @@ private:
 	unsigned int health;
 	int speed;
 	int power;
+	int deffence;
 
 public:
 	GuardClass();

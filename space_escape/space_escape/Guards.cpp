@@ -4,6 +4,7 @@ GuardClass::GuardClass() {
 	setHealth(100);
 	setPower(5);
 	setDefense(10);
+	setDefense(2);
 
 }
 GuardClass ::~GuardClass() {}
