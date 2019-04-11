@@ -197,11 +197,6 @@ void Fight::ThreeEnemy(BaseStatClass* player , BaseStatClass* enemy1, BaseStatCl
 
 };
 
-void Fight::BattleCalculation(BaseStatClass* player, BaseStatClass* enemy)
-{
-
-};
-
 
 void Fight::Death() {
 	cout << "Sorry you died!" << endl;

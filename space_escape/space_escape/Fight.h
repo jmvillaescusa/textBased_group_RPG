@@ -15,7 +15,6 @@ public:
 	void SingleEnemy(BaseStatClass*, BaseStatClass*);
 	void TwoEnemy(BaseStatClass*,BaseStatClass*,BaseStatClass*);
 	void ThreeEnemy(BaseStatClass*, BaseStatClass*, BaseStatClass*, BaseStatClass*);
-	void BattleCalculation(BaseStatClass*, BaseStatClass*);
 
 	
 	//function that gives a message that will appeare when the player hit 0 health
