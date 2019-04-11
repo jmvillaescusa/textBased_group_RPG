@@ -3,7 +3,7 @@
 GuardClass :: GuardClass() {
 	setHealth(100);
 	setPower(5);
-	setDeffence(10);
+	setDefense(10);
 
 }
 GuardClass ::~GuardClass(){}
@@ -11,9 +11,9 @@ GuardClass ::~GuardClass(){}
 void GuardClass::GuardStats() {
 	cout << endl;
 	cout << "Guard Stats:" << endl;
-	cout << getHealth() << endl;
-	cout << getPower() << endl;
-	cout << getDeffence() << endl;
+	cout << "Health:"<<this->getHealth() << endl;
+	cout << "Power:"<<this->getPower() << endl;
+	cout << "Deffence:"<<this->getDefense() << endl;
 
 }
 void GuardClass::GuardDialogue(int temp) {

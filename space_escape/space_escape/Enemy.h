@@ -18,6 +18,8 @@ public:
 
 	int getSpeed() { return speed; }
 	void setSpeed(int e_speed) { speed = e_speed; }
+
+	
 };
 
 #endif // !1

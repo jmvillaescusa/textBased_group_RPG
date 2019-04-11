@@ -2,7 +2,7 @@
 #include <iostream>
 #include "Basestat.h"
 
-class Fight {
+/*class Fight {
 public:
 	Fight();
 	~Fight();
@@ -10,4 +10,4 @@ public:
 	void FightManager(BaseStatClass*, BaseStatClass*);
 	void PlayerTurn(BaseStatClass*, BaseStatClass*);
 	void EnemyTurn(BaseStatClass*, BaseStatClass*);
-};
+};*/

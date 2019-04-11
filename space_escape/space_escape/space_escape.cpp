@@ -16,13 +16,42 @@
 Player player;
 GuardClass Guard;
 
+void MenuScreen();
+void Game();
 
 int main()
 {
-	GuardClass Guard;
-	Player player;
+	
+	MenuScreen();
 
+	return 0;
+}
+
+void MenuScreen() {
+	
+	bool IsOnMenu = true;
+	char ans;
+
+	cout << "" << endl;
+
+	cout << "\n\n\n\n\tWould You like to play the game Yes = 'y', No = 'n'. " << endl;
+	cin >> ans;
+
+	if (ans == 'y') {
+		Game();
+
+	}
+	else if(ans == 'n')
+	{
+		
+		return;
+	}
+}
+
+void Game() {
 	bool isRunning = true;
+
+
 	Map m;
 	m.DislayMap();
 	int c = 0;
@@ -33,6 +62,4 @@ int main()
 
 		//Player Movement
 	}
-
-	return 0;
 }
