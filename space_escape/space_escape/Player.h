@@ -12,13 +12,12 @@ private:
 	int playerPosY = 1;
 
 public:
-	int getLuck() { return luck; }
-	void setLuck(int m_luck) { luck = m_luck; }
 
 	void Update();
 	Player();
 	~Player();
 	void playerInfo();
 	//bool isRunning = true;
+
 };
 
