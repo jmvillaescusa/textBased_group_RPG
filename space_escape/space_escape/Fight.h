@@ -1,13 +1,24 @@
 #pragma once
 #include <iostream>
-#include "Basestat.h"
+#include "Player.h"
+#include "Enemy.h"
 
-/*class Fight {
+
+class Fight {
 public:
 	Fight();
 	~Fight();
 
-	void FightManager(BaseStatClass*, BaseStatClass*);
 	void PlayerTurn(BaseStatClass*, BaseStatClass*);
-	void EnemyTurn(BaseStatClass*, BaseStatClass*);
-};*/
+	void EnemyTurn(BaseStatClass*,BaseStatClass*);
+	void SingleEnemy(BaseStatClass*, BaseStatClass*);
+	void TwoEnemy(BaseStatClass*,BaseStatClass*,BaseStatClass*);
+	void ThreeEnemy(BaseStatClass*, BaseStatClass*, BaseStatClass*, BaseStatClass*);
+
+	
+	//function that gives a message that will appeare when the player hit 0 health
+	void Death();
+
+
+};
+

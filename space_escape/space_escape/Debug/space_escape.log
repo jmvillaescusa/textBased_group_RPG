@@ -1,3 +1,4 @@
+
 ﻿  space_escape.cpp
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(35): error C2001: newline in constant
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(36): error C2065: '____': undeclared identifier
@@ -10,3 +11,6 @@ d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_esca
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(40): error C2017: illegal escape sequence
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(44): error C2001: newline in constant
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(46): error C2143: syntax error: missing ')' before ';'
+
+﻿  Fight.cpp
+  space_escape.vcxproj -> D:\Game Dev\C++\ASSIGNMENT\textBased_group_RPG\space_escape\Debug\space_escape.exe

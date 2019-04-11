@@ -1,6 +1,7 @@
 #include "Boss.h"
 
-BossClass::BossClass(){
+BossClass::BossClass() {
+
 	setHealth(0);
 	setPower(0);
 	setDefense(0);
@@ -8,10 +9,12 @@ BossClass::BossClass(){
 	setLuck(0);
 }
 
-BossClass::~BossClass(){}
+BossClass::~BossClass() {}
 
 void BossClass::BossStats() {
 	cout << endl;
+
+	//displays the stat on the screen
 	cout << "Boss Stat:" << endl;
 	cout << "Health:" << this->getHealth() << endl;
 	cout << "Power:" << this->getPower() << endl;

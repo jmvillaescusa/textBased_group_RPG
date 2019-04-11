@@ -1,12 +1,11 @@
 #include "Guards.h"
 
-GuardClass :: GuardClass() {
+GuardClass::GuardClass() {
 	setHealth(100);
 	setPower(5);
 	setDefense(10);
-
 }
-GuardClass ::~GuardClass(){}
+GuardClass ::~GuardClass() {}
 
 void GuardClass::GuardStats() {
 	cout << endl;
@@ -15,12 +14,13 @@ void GuardClass::GuardStats() {
 	cout << "Power:"<<this->getPower() << endl;
 	cout << "Deffence:"<<this->getDefense() << endl;
 
+
 }
 void GuardClass::GuardDialogue(int temp) {
 	system("CLS");
 	cout << endl;
-	
-	
+
+
 	switch (temp)
 	{
 	case 1:
@@ -39,6 +39,7 @@ void GuardClass::GuardDialogue(int temp) {
 
 
 }
+
 
 
 
