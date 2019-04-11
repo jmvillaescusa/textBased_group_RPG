@@ -16,11 +16,18 @@ int main()
 	GuardClass Guard;
 	Map m;
 	m.DislayMap();
-	
-	while (isRunning) 
 
 	player.Update();
+	//player.getPlayerInfo;
+	cout << endl;
+	cout << "Player Stats:" << endl;
+	cout << player.getPlayerHealth() << endl;
+	cout << player.getPlayerSpeed() << endl;
+	cout << player.getPlayerDefense() << endl;
+
 	
+	
+
 
 	return 0;
 }

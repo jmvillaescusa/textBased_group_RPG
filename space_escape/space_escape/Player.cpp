@@ -1,3 +1,5 @@
+//Dylan Rampersad
+
 #include "Player.h"
 #include <conio.h>
 #include "Map.h"
@@ -13,6 +15,7 @@ int c = 0;
 bool isRunning = true;
 Map map;
 
+
 Player::Player() {
 	//player stats/variables
 	setHealth(100);
@@ -24,10 +27,9 @@ Player::Player() {
 void Player::Update() {
 	getPlayerPosX();
 	getPlayerPosY();
-
 	Frames frames;
 	bool isPlaying = true;
-
+	playerInfo();
 	int c = 0;
 
 	while (isPlaying) {
@@ -104,6 +106,8 @@ void Player::playerInfo() {
 	cout << getPlayerDefense() << endl;
 
 }
+
+
 
 		
 

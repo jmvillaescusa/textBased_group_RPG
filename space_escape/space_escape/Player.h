@@ -1,3 +1,5 @@
+//Dylan Rampersad
+
 #pragma once
 #include <time.h>
 #include "Basestat.h"
@@ -19,6 +21,7 @@ public:
 	void Update();
 	Player();
 	~Player();
+	void playerInfo();
 	//bool isRunning = true;
 
 	//Getters
@@ -27,13 +30,17 @@ public:
 	int getPlayerHealth() { return playerHealth; }
 	int getPlayerSpeed() { return playerSpeed; }
 	int getPlayerDefense() { return playerDefense; }
+	void getPlayerInfo() { return playerInfo(); }
 
 	//Setters
 	void setHealth(int h) { h = health; }
 	void setSpeed(int s) { s = speed; }
 	void setDefense(int d) { d = defense; }
+	
 	//void setPlayerPosY(int s) { s = playerPosY; }
 
-	void playerInfo();
+	
+	//void *playerInfo();
+	void getPlayerInfo(int temp) { void playerInfo(); }
 };
 
