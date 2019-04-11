@@ -20,69 +20,68 @@ void Player::Update() {
 	Frames frames;
 	bool isPlaying = true;
 
-	int c = 0;
-
+	
 	while (isPlaying) {
+		
 		frames.Update();
+		int c = 0;
+		if (frames.DeltaTime() >= (1.0 / frames.GetFrameRate())) {
 
-if (frames.DeltaTime() >= (1.0 / frames.GetFrameRate())) {
-
-	//std::cout << "timer" << std::endl;
-	//ystem("CLS");
-
-	switch ((c = _getch())) {
-	case KEY_DOWN:
-		if (map.area1_1[playerPosY + 1][playerPosX] == 1) {
-			playerPosY += 0;
-		}
-		else if(playerPosY == map.DOOR){
-			map.area1_1[playerPosY = 0][playerPosX] = 3;
-			playerPosY - 1;
-		}
-		else {
-			map.area1_1[playerPosY][playerPosX] = 2;
-			playerPosY += 1;
-			map.area1_1[playerPosY][playerPosX] = 3;
-		}
-		system("CLS");
-		map.DislayMap();
-		break;
-	case KEY_UP:
-		if (map.area1_1[playerPosY - 1][playerPosX] == 1) {
-			playerPosY += 0;
-		}
-		else {
-			map.area1_1[playerPosY][playerPosX] = 2;
-			playerPosY -= 1;
-			map.area1_1[playerPosY][playerPosX] = 3;
-		}
-		system("CLS");
-		map.DislayMap();
-		break;
-	case KEY_LEFT:
-		if (map.area1_1[playerPosY][playerPosX - 1] == 1) {
-			playerPosY += 0;
-		}
-		else {
-			map.area1_1[playerPosY][playerPosX] = 2;
-			playerPosX -= 1;
-			map.area1_1[playerPosY][playerPosX] = 3;
-		}
-		system("CLS");
-		map.DislayMap();
-		break;
-	case KEY_RIGHT:
-		if (map.area1_1[playerPosY][playerPosX + 1] == 1) {
-			playerPosY += 0;
-		}
-		else {
-			map.area1_1[playerPosY][playerPosX] = 2;
-			playerPosX += 1;
-			map.area1_1[playerPosY][playerPosX] = 3;
-		}
-		system("CLS");
-		map.DislayMap();
-		break;
+			switch ((c = _getch())) {
+			case KEY_DOWN:
+				if (map.area1_1[playerPosY + 1][playerPosX] == 1 || map.area1_1[playerPosY + 1][playerPosX] == 5) {
+					playerPosY += 0;
+				}
+				else if (playerPosY == map.DOOR) {
+					map.area1_1[playerPosY = 0][playerPosX] = 3;
+					playerPosY - 1;
+				}
+				else {
+					map.area1_1[playerPosY][playerPosX] = 2;
+					playerPosY += 1;
+					map.area1_1[playerPosY][playerPosX] = 3;
+				}
+				system("CLS");
+				map.DislayMap();
+				break;
+			case KEY_UP:
+				if (map.area1_1[playerPosY - 1][playerPosX] == 1 || map.area1_1[playerPosY - 1][playerPosX] == 5) {
+					playerPosY += 0;
+				}
+				else {
+					map.area1_1[playerPosY][playerPosX] = 2;
+					playerPosY -= 1;
+					map.area1_1[playerPosY][playerPosX] = 3;
+				}
+				system("CLS");
+				map.DislayMap();
+				break;
+			case KEY_LEFT:
+				if (map.area1_1[playerPosY][playerPosX - 1] == 1 || map.area1_1[playerPosY][playerPosX - 1] == 5) {
+					playerPosY += 0;
+				}
+				else {
+					map.area1_1[playerPosY][playerPosX] = 2;
+					playerPosX -= 1;
+					map.area1_1[playerPosY][playerPosX] = 3;
+				}
+				system("CLS");
+				map.DislayMap();
+				std::cout << playerPosX << std::endl;
+				break;
+			case KEY_RIGHT:
+				if (map.area1_1[playerPosY][playerPosX + 1] == 1 || map.area1_1[playerPosY][playerPosX + 1] == 5) {
+					playerPosY += 0;
+				}
+				else {
+					map.area1_1[playerPosY][playerPosX] = 2;
+					playerPosX += 1;
+					map.area1_1[playerPosY][playerPosX] = 3;
+				}
+				system("CLS");
+				map.DislayMap();
+				std::cout << playerPosX << std::endl;
+				break;
 			}
 		}
 	}
