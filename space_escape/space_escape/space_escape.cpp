@@ -7,7 +7,6 @@
 #include "Fight.h"
 #include <iostream>
 
-
 //Controls for player movement
 #define KEY_UP 72
 #define KEY_DOWN 80
@@ -20,6 +19,8 @@ Fight fight;
 
 void MenuScreen();
 void Game();
+void EndGame();
+
 
 int main()
 {
@@ -55,7 +56,9 @@ void Game() {
 
 	Map m;
 	m.DislayMap();
-
+	int c = 0;
+	int playerPosX = 4;
+	int playerPosY = 1;
 
 	while (isRunning) {
 		player.Update();
@@ -66,6 +69,7 @@ void Game() {
 		else {
 			isRunning = false;
 		}
+
 		//Player Movement
 	}
 

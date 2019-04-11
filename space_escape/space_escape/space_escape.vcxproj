@@ -155,7 +155,6 @@
     <ClInclude Include="Fight.h" />
     <ClInclude Include="Basestat.h" />
     <ClInclude Include="Enemy.h" />
-    <ClInclude Include="frames.h" />
     <ClInclude Include="Guards.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="pch.h" />
