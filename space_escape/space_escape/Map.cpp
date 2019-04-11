@@ -2,7 +2,7 @@
 #include "Map.h"
 
 Map::Map() {
-
+	areaIndex = 0;
 }; Map::~Map() {};
 
 void Map::DislayMap() {
