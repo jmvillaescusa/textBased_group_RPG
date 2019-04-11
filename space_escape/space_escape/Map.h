@@ -1,8 +1,9 @@
 #pragma once
 #include <iostream>
+#include <vector>
 
 class Map {
-private:                      
+public:                      
 	//Map Index
 	//Each number corresponds to the position of the map
 	const char AVATAR = '@';   // 3
