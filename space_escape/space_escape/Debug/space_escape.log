@@ -1,3 +1,7 @@
-﻿  Player.cpp
-c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\player.cpp(37): warning C4552: '-': result of expression not used
-  space_escape.vcxproj -> C:\_Projects\GameDev\textBased_group_RPG\space_escape\Debug\space_escape.exe
+
+﻿  Guards.cpp
+  Map.cpp
+  Generating Code...
+c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\map.cpp(32): warning C4715: 'Map::MapIndex': not all control paths return a value
+LINK : fatal error LNK1104: cannot open file 'C:\_Projects\GameDev\textBased_group_RPG\space_escape\Debug\space_escape.exe'
+﻿  space_escape.vcxproj -> C:\Users\Dylan\Desktop\GameDev\Projects\textBased_group_RPG\space_escape\Debug\space_escape.exe
