@@ -1,3 +1,4 @@
+
 ﻿  frames.cpp
 c1xx : fatal error C1083: Cannot open source file: 'frames.cpp': No such file or directory
   Boss.cpp
@@ -81,4 +82,36 @@ d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\player.cpp
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\player.cpp(89): error C3861: 'getPlayerHealth': identifier not found
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\player.cpp(90): error C3861: 'getPlayerSpeed': identifier not found
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\player.cpp(91): error C3861: 'getPlayerDefense': identifier not found
+
+
+﻿
+﻿
+﻿  Player.cpp
+c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\player.cpp(37): warning C4552: '-': result of expression not used
+﻿  Movement.cpp
+  space_escape.cpp
+  Generating Code...
+  space_escape.vcxproj -> C:\_Projects\GameDev\textBased_group_RPG\space_escape\Debug\space_escape.exe
+
+
+﻿  space_escape.cpp
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(35): error C2001: newline in constant
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(36): error C2065: '____': undeclared identifier
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(36): error C2059: syntax error: '|'
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(38): error C2017: illegal escape sequence
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(38): warning C4129: ' ': unrecognized character escape sequence
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(38): error C2015: too many characters in constant
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(39): error C2059: syntax error: ')'
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(39): error C2017: illegal escape sequence
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(40): error C2017: illegal escape sequence
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(44): error C2001: newline in constant
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(46): error C2143: syntax error: missing ')' before ';'
+
+﻿  Fight.cpp
+  space_escape.vcxproj -> D:\Game Dev\C++\ASSIGNMENT\textBased_group_RPG\space_escape\Debug\space_escape.exe
+
+
+﻿  Guards.cpp
+  Map.cpp
+
   Generating Code...

@@ -1,17 +1,17 @@
+//Jaimeson
 #include "Map.h"
 
 Map::Map() {
-	
+
 }; Map::~Map() {};
 
 void Map::DislayMap() {
 	system("CLS");
-	int area[11][20];
-	area[11][20] = area2_1[11][20];
 	char temp;
 	for (int i = 0; i < 11; i++) {
 		for (int j = 0; j < 20; j++) {
 			temp = MapIndex(area[i][j]);
+			temp = MapIndex(world[areaIndex][i][j]);
 			std::cout << temp;
 		}
 		std::cout << std::endl;

@@ -9,6 +9,7 @@
     <ClCompile Include="space_escape.cpp" />
     <ClCompile Include="frames.cpp" />
     <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Movement.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fight.h" />
@@ -80,5 +81,6 @@
 
     </ClCompile>
 
+    <ClInclude Include="Movement.h" />
   </ItemGroup>
 </Project>
