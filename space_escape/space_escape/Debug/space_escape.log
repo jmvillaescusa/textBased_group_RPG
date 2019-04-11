@@ -1,3 +1,4 @@
-﻿  Player.cpp
-c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\player.cpp(37): warning C4552: '-': result of expression not used
+﻿  Movement.cpp
+  space_escape.cpp
+  Generating Code...
   space_escape.vcxproj -> C:\_Projects\GameDev\textBased_group_RPG\space_escape\Debug\space_escape.exe

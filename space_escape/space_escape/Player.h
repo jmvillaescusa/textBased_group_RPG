@@ -1,9 +1,7 @@
 #pragma once
 #include <time.h>
-#include <conio.h>
 #include "Basestat.h"
-#include "frames.h"
-#include "Map.h"
+#include "Movement.h"
 
 class Player : public BaseStatClass {
 private:
@@ -14,6 +12,12 @@ private:
 public:
 	int getLuck() { return luck; }
 	void setLuck(int m_luck) { luck = m_luck; }
+
+	int getPlayerPosX() { return playerPosX; }
+	int getPlayerPosY() { return playerPosY; }
+
+	void setPlayerPosX(int x) { playerPosX = x; }
+	void setPlayerPosY(int y) { playerPosY = y; }
 
 	void Update();
 	Player();
