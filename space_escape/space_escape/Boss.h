@@ -4,7 +4,7 @@
 
 #include "Enemy.h"
 
-class BossClass :public EnemyClass {
+class BossClass :public BaseStatClass {
 private:
 	
 	//holds the information of the boss stat

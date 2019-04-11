@@ -6,8 +6,7 @@
 
 class GuardClass : public BaseStatClass {
 
-private:
-	
+private:	
 	//holds the stat information of the guard
 	unsigned int health;
 	int speed;

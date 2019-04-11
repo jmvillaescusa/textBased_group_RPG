@@ -1,14 +1,12 @@
+//Jaimeson
 #include "Map.h"
-
 #include "Basestat.h"
 #include "Enemy.h"
 #include "Guards.h"
 #include "Player.h"
 #include <conio.h>
 #include "Fight.h"
-
 #include <iostream>
-
 
 //Controls for player movement
 #define KEY_UP 72
@@ -22,13 +20,13 @@ Fight fight;
 
 void MenuScreen();
 void Game();
+void EndGame();
+
 
 int main()
 {
 	
 	MenuScreen();
-
-	void EndGame();
 
 	return 0;
 }
@@ -65,12 +63,14 @@ void Game() {
 
 	while (isRunning) {
 		player.Update();
+
 		if (player.getHealth() > 0) {
 			isRunning = true;
 		}
 		else {
 			isRunning = false;
 		}
+
 		//Player Movement
 	}
 

@@ -4,8 +4,8 @@ GuardClass::GuardClass() {
 	setHealth(100);
 	setPower(5);
 	setDefense(10);
-}
-GuardClass ::~GuardClass() {}
+	setSpeed(20);
+} GuardClass::~GuardClass(){}
 
 void GuardClass::GuardStats() {
 	cout << endl;
@@ -36,10 +36,5 @@ void GuardClass::GuardDialogue(int temp) {
 		cout << "Get ready to get to take one under." << endl;
 	}
 
-
-
 }
-
-
-
 

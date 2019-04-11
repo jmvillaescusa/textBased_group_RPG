@@ -1,5 +1,7 @@
 #pragma once
 #include <iostream>
+#include "Basestat.h"
+#include <vector>
 #include "Player.h"
 #include "Enemy.h"
 
@@ -19,6 +21,6 @@ public:
 	//function that gives a message that will appeare when the player hit 0 health
 	void Death();
 
-
 };
+
 

@@ -203,4 +203,3 @@ void Fight::Death() {
 	cout << "Sorry you died!" << endl;
 };
 
-
