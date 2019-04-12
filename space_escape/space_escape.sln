@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "space_escape", "space_escape\space_escape.vcxproj", "{8247D78B-276D-413E-8290-30FE0F0B509B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94144D9C-EE58-4C6C-A488-4FA7D8237C03}"
+	ProjectSection(SolutionItems) = preProject
+		space_escape\Items.cpp = space_escape\Items.cpp
+		space_escape\Items.h = space_escape\Items.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
