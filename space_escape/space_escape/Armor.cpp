@@ -2,13 +2,13 @@
 #include "Armor.h"
 
 
-Armor::defense() {
+//Armor::defense() {
 
-	getDefense()
+	//getDefense()
 
-};
+//};
 
-Armor::~defense() {
+//Armor::~defense() {
 
 }
 

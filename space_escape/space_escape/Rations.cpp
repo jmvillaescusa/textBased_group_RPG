@@ -5,5 +5,5 @@
 Rations::Items
 // Items stats
 
-setHealth(100);
+//setHealth(100);
 

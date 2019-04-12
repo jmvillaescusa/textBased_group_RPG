@@ -1,12 +1,12 @@
 //JEFF
 #include "LightShiv.h"
 
-WeaponStats::damage() {
+//WeaponStats::damage() {
 
-	getDamage()
+	//getDamage()
 
-}
-WeaponStats::~damage() {
+//}
+//WeaponStats::~damage() {
 	
-}
-void setDamage()
+//}
+//void setDamage()

@@ -1,8 +1,8 @@
 //JEFF
 #include "WeaponStats.h"
 
-LightShiv::() {
+//LightShiv::() {
 
-	getDamage()
+	//getDamage()
 
-}
+//}
