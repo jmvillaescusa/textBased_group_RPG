@@ -3,8 +3,7 @@
 #include "Basestat.h"
 #include "Enemy.h"
 #include "Guards.h"
-#include "Player.h"
-#include <conio.h>
+#include "Movement.h"
 #include "Fight.h"
 #include <iostream>
 
@@ -14,9 +13,7 @@
 #define KEY_LEFT 75
 #define KEY_RIGHT 77
 
-Player player;
-GuardClass Guard;
-Fight fight;
+Movement*movement = new Movement();
 
 void MenuScreen();
 void Game();
@@ -62,19 +59,20 @@ void Game() {
 	int playerPosY = 1;
 
 	while (isRunning) {
-		player.Update();
-
+		movement->Move();
+		//player.Update();
+		/*
 		if (player.getHealth() > 0) {
 			isRunning = true;
 		}
 		else {
 			isRunning = false;
 		}
-
+		*/
 		//Player Movement
 	}
 
-	fight.Death();
+	//fight->Death();
 	system("CLS");
 	EndGame();
 

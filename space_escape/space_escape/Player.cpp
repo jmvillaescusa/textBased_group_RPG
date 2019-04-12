@@ -1,7 +1,5 @@
 #include "Player.h"
 
-Movement movement;
-
 Player::Player() {
 	//player stats/variables
 	setHealth(100);
@@ -11,15 +9,15 @@ Player::Player() {
 } Player::~Player(){}
 
 void Player::Update() {
-	movement.Move();
+	//movement.Move();
 }
 
 void Player::playerInfo() {
 	cout << endl;
 	cout << "Player Stats:" << endl;
-	cout << getPlayerHealth() << endl;
-	cout << getPlayerSpeed() << endl;
-	cout << getPlayerDefense() << endl;
+	cout << getHealth() << endl;
+	cout << getSpeed() << endl;
+	cout << getDefense() << endl;
 
 }
 
