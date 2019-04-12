@@ -1,38 +1,13 @@
-﻿  pch.cpp
-  Boss.cpp
-  Fight.cpp
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(26): error C2059: syntax error: '<<'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(28): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(29): error C2535: 'int Player::getPlayerPosX(void)': member function already defined or declared
-  c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(14): note: see declaration of 'Player::getPlayerPosX'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(45): error C2059: syntax error: '=='
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(47): error C2143: syntax error: missing ';' before '}'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(47): error C2238: unexpected token(s) preceding ';'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(14): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(15): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(17): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(18): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(29): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(30): error C2065: 'playerHealth': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(31): error C2065: 'playerSpeed': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(32): error C2065: 'playerDefense': undeclared identifier
-  Guards.cpp
+﻿  Fight.cpp
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(29): error C2535: 'int Player::getPlayerPosY(void)': member function already defined or declared
+  c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(17): note: see declaration of 'Player::getPlayerPosY'
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(30): error C2535: 'int Player::getPlayerPosX(void)': member function already defined or declared
+  c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(16): note: see declaration of 'Player::getPlayerPosX'
   Movement.cpp
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(26): error C2059: syntax error: '<<'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(28): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(29): error C2535: 'int Player::getPlayerPosX(void)': member function already defined or declared
-  c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(14): note: see declaration of 'Player::getPlayerPosX'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(45): error C2059: syntax error: '=='
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(47): error C2143: syntax error: missing ';' before '}'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(47): error C2238: unexpected token(s) preceding ';'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(14): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(15): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(17): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(18): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(29): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(30): error C2065: 'playerHealth': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(31): error C2065: 'playerSpeed': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(32): error C2065: 'playerDefense': undeclared identifier
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(29): error C2535: 'int Player::getPlayerPosY(void)': member function already defined or declared
+  c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(17): note: see declaration of 'Player::getPlayerPosY'
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(30): error C2535: 'int Player::getPlayerPosX(void)': member function already defined or declared
+  c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(16): note: see declaration of 'Player::getPlayerPosX'
 c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\movement.cpp(16): error C2248: 'Map::world': cannot access private member declared in class 'Map'
   c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\map.h(20): note: see declaration of 'Map::world'
   c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\map.h(5): note: see declaration of 'Map'
@@ -82,77 +57,23 @@ c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_e
   c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\map.h(20): note: see declaration of 'Map::world'
   c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\map.h(5): note: see declaration of 'Map'
   Player.cpp
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(26): error C2059: syntax error: '<<'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(28): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(29): error C2535: 'int Player::getPlayerPosX(void)': member function already defined or declared
-  c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(14): note: see declaration of 'Player::getPlayerPosX'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(45): error C2059: syntax error: '=='
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(47): error C2143: syntax error: missing ';' before '}'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(47): error C2238: unexpected token(s) preceding ';'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(14): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(15): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(17): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(18): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(29): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(30): error C2065: 'playerHealth': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(31): error C2065: 'playerSpeed': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(32): error C2065: 'playerDefense': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(17): error C2059: syntax error: '<<'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(35): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(35): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(35): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(36): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(38): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(38): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(39): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(39): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(39): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(40): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(43): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(43): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(43): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(44): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(45): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(45): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(45): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(48): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(51): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(51): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(51): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(52): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(55): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(55): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(55): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(56): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(57): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(57): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(57): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(60): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(63): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(63): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(63): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(64): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(67): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(67): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(67): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(68): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(69): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(69): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(69): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(72): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(75): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(75): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(75): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(76): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(79): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(79): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(79): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(80): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(81): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(81): error C2065: 'playerPosY': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(81): error C2065: 'playerPosX': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(84): error C2065: 'map': undeclared identifier
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(89): error C2059: syntax error: '=='
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(91): error C2059: syntax error: '>>'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(103): error C2059: syntax error: '<<'
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(29): error C2535: 'int Player::getPlayerPosY(void)': member function already defined or declared
+  c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(17): note: see declaration of 'Player::getPlayerPosY'
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(30): error C2535: 'int Player::getPlayerPosX(void)': member function already defined or declared
+  c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(16): note: see declaration of 'Player::getPlayerPosX'
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(25): error C3861: 'getPlayerHealth': identifier not found
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(26): error C3861: 'getPlayerSpeed': identifier not found
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.cpp(27): error C3861: 'getPlayerDefense': identifier not found
+  space_escape.cpp
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(29): error C2535: 'int Player::getPlayerPosY(void)': member function already defined or declared
+  c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(17): note: see declaration of 'Player::getPlayerPosY'
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(30): error C2535: 'int Player::getPlayerPosX(void)': member function already defined or declared
+  c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\player.h(16): note: see declaration of 'Player::getPlayerPosX'
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(17): error C3861: 'MenuScreen': identifier not found
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(33): error C3861: 'Game': identifier not found
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(38): error C3861: 'EndGame': identifier not found
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(71): error C2065: 'player': undeclared identifier
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(73): error C2065: 'player': undeclared identifier
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(83): error C2065: 'fight': undeclared identifier
+c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(85): error C3861: 'EndGame': identifier not found
   Generating Code...

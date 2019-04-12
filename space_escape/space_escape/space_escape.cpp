@@ -47,10 +47,6 @@ void Game() {
 	Map m;
 	m.DislayMap();
 
-	while (isRunning) {
-		player.Update();
-		player.playerInfo();
-	}
 
 	//PlaySound(TEXT("Halo_2.mp3"), NULL, SND_FILENAME | SND_ASYNC);
 	//PlaySound(TEXT("Halo_2.mp3"), NULL, 0, NULL);
@@ -67,20 +63,9 @@ void Game() {
 	int playerPosX = 4;
 	int playerPosY = 1;
 
-	while (isRunning) {
-		player.Update();
+	
 
-		if (player.getHealth() > 0) {
-			isRunning = true;
-		}
-		else {
-			isRunning = false;
-		}
-
-		//Player Movement
-	}
-
-	fight.Death();
+	//fight.Death();
 	system("CLS");
 	EndGame();
 
