@@ -28,7 +28,7 @@ void Movement::Move() {
 					player.setPlayerPosY(player.getPlayerPosY() + 0);
 				}
 				else {
-					map.world[map.getAreaIndex()][player.getPlayerPosY()][player.getPlayerPosX()] = 2;
+					map.world[map.getAreaIndex()][player.getPlayerPosY()][player.getPlayerPosX()] = 2;//this assign what?
 					player.setPlayerPosY(player.getPlayerPosY() - 1);
 					map.world[map.getAreaIndex()][player.getPlayerPosY()][player.getPlayerPosX()] = 3;
 				}

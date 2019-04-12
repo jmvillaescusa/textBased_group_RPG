@@ -10,7 +10,6 @@ void Map::DislayMap() {
 	char temp;
 	for (int i = 0; i < 11; i++) {
 		for (int j = 0; j < 20; j++) {
-			temp = MapIndex(area[i][j]);
 			temp = MapIndex(world[areaIndex][i][j]);
 			std::cout << temp;
 		}

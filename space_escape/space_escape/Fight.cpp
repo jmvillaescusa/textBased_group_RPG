@@ -39,18 +39,26 @@ void Fight::EnemyTurn(BaseStatClass* player, BaseStatClass* enemy)
 void Fight::SingleEnemy(BaseStatClass* player, BaseStatClass* enemy) 
 {
 	bool isBattling = true;
+	//this will tell if the battle is still going on
 	
 	//this loop will keep going untill one is declared dead
+	
 	while (isBattling == true) {
+	// statements below will continue as long as the battle is going on	
 
 		if (player->getSpeed() > enemy->getSpeed()) {
+			//this statement is saying thats the player goes first if its speed is faster
+
 			while (enemy->getHealth() > 0 && player->getHealth() > 0) 
+				//this gets the players health and enemies health on a temp variable to see if its above 0 
 			{
+				//if both health is above 0 both function below will fire
 				PlayerTurn(player, enemy);
 				EnemyTurn(player, enemy);
 			}
 			
 			isBattling = false;
+			//this will escape the while loop that tells one has dies.
 
 		}
 		else {

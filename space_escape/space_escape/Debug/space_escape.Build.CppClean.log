@@ -1,3 +1,7 @@
+c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\debug\space_escape.pch
+c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\debug\vc141.pdb
+c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\debug\vc141.idb
+c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\debug\pch.obj
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\space_escape.pch
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\vc141.pdb
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\vc141.idb
@@ -6,14 +10,36 @@ d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\spac
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\map.obj
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\enemy.obj
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\guards.obj
-d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\player.obj
+c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\debug\map.obj
+c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\debug\guards.obj
+c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\debug\space_escape.obj
+c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\debug\player.obj
+c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\debug\fight.obj
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\fight.obj
-d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\debug\space_escape.exe
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\boss.obj
+c:\_projects\gamedev\textbased_group_rpg\space_escape\debug\space_escape.exe
+c:\_projects\gamedev\textbased_group_rpg\space_escape\debug\space_escape.ilk
+c:\_projects\gamedev\textbased_group_rpg\space_escape\debug\space_escape.pdb
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\debug\space_escape.ilk
+d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\debug\space_escape.exe
 d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\debug\space_escape.pdb
-d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\space_escape.tlog\cl.command.1.tlog
-d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\space_escape.tlog\cl.read.1.tlog
-d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\space_escape.tlog\cl.write.1.tlog
-d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\space_escape.tlog\link.command.1.tlog
-d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\space_escape.tlog\link.read.1.tlog
-d:\game dev\c++\grourpg\textbased_group_rpg\space_escape\space_escape\debug\space_escape.tlog\link.write.1.tlog
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\boss.obj
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\fight.obj
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\frames.obj
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\guards.obj
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\map.obj
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\pch.obj
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\player.obj
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\space_escape.obj
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\space_escape.pch
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\vc141.idb
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\vc141.pdb
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\debug\space_escape.pdb
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\debug\space_escape.exe
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\debug\space_escape.ilk
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\space_escape.tlog\cl.command.1.tlog
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\space_escape.tlog\cl.read.1.tlog
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\space_escape.tlog\cl.write.1.tlog
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\space_escape.tlog\link.command.1.tlog
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\space_escape.tlog\link.read.1.tlog
+d:\game dev\c++\assignment\textbased_group_rpg\space_escape\space_escape\debug\space_escape.tlog\link.write.1.tlog

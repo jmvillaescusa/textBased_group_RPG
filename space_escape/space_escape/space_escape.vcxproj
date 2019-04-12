@@ -155,9 +155,11 @@
     <ClInclude Include="Fight.h" />
     <ClInclude Include="Basestat.h" />
     <ClInclude Include="Enemy.h" />
+    <ClInclude Include="frames.h" />
     <ClInclude Include="Guards.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Movement.h" />
+    <ClInclude Include="NPC.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
@@ -168,6 +170,7 @@
     <ClCompile Include="Guards.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Movement.cpp" />
+    <ClCompile Include="NPC.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
