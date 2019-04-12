@@ -39,6 +39,7 @@ void MenuScreen() {
 	cin >> ans;
 
 	if (ans == 'y') {
+		system("CLS");
 		Game();
 
 	}
@@ -80,10 +81,8 @@ void Game() {
 void EndGame() {
 	cout << "\n\n\n\tGood Game!" << endl;
 	cout << "\n\tHope Your had fun here are the developers names: " << endl;
-	cout << "\t" << endl;
-	cout << "\t" << endl;
-	cout << "\t" << endl;
-	cout << "\t" << endl;
-
-
+	cout << "\tAaron Bisbal" << endl;
+	cout << "\tDylan Rampersad" << endl;
+	cout << "\tJaimeson Mario Villaescusa" << endl;
+	cout << "\tJeffrey Pires" << endl;
 }

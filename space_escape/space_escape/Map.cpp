@@ -6,7 +6,7 @@ Map::Map() {
 }; Map::~Map() {};
 
 void Map::DislayMap() {
-	system("CLS");
+	//system("CLS");
 	char temp;
 	for (int i = 0; i < 11; i++) {
 		for (int j = 0; j < 20; j++) {
@@ -25,7 +25,9 @@ char Map::MapIndex(int temp) {
 	case 4: return NPC;
 	case 5: return DOOR;
 	case 6: return BOSS;
+	case 7: return MEGA_BOSS;
 	default:
 		NULL;
 	}
+	return NULL;
 };
