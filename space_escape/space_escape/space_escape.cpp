@@ -1,4 +1,6 @@
 //Jaimeson
+
+
 #include "Map.h"
 #include "Basestat.h"
 #include "Enemy.h"
@@ -21,6 +23,7 @@ Fight fight;
 void MenuScreen();
 void Game();
 void EndGame();
+void Story();
 
 
 int main()
@@ -35,6 +38,8 @@ void MenuScreen() {
 
 	bool IsOnMenu = true;
 	char ans;
+
+	Story();
 
 	cout << "" << endl;
 
@@ -65,6 +70,7 @@ void Game() {
 		player.Update();
 
 		if (player.getHealth() > 0) {
+
 			isRunning = true;
 		}
 		else {
@@ -88,4 +94,20 @@ void EndGame() {
 	cout << "\t" << endl;
 
 
+}
+
+void Story() {
+	ifstream src("GroupTextRPG.txt");
+	string test;
+
+	if (!src.is_open()) {
+		cout << "Couldn't open file" << endl;
+	}
+	while (!src.eof()) {
+		getline(src, test);
+		//nameOfVector.push_back(test);
+		cout << test << endl;
+	}
+
+	src.close();
 }
