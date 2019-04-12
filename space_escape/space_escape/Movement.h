@@ -13,6 +13,8 @@ private:
 	#define KEY_LEFT 75
 	#define KEY_RIGHT 77
 
+	int posX = 4;
+
 public:
 	Movement();
 	~Movement();
