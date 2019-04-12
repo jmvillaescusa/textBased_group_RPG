@@ -20,16 +20,17 @@ int main()
 	Map m;
 	m.DislayMap();
 
+	while (isRunning) {
+		player.Update();
+		player.playerInfo();
+	}
+
 	//PlaySound(TEXT("Halo_2.mp3"), NULL, SND_FILENAME | SND_ASYNC);
 	//PlaySound(TEXT("Halo_2.mp3"), NULL, 0, NULL);
 
-	player.Update();
+	
 	//player.getPlayerInfo;
-	cout << endl;
-	cout << "Player Stats:" << endl;
-	cout << player.getPlayerHealth() << endl;
-	cout << player.getPlayerSpeed() << endl;
-	cout << player.getPlayerDefense() << endl;
+	
 
 	
 	

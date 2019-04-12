@@ -1,10 +1,2 @@
 ﻿  space_escape.cpp
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(11): warning C4005: 'PlaySound': macro redefinition
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\playsoundapi.h(121): note: see previous definition of 'PlaySound'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(12): warning C4005: 'mciSendString': macro redefinition
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\mciapi.h(96): note: see previous definition of 'mciSendString'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(13): warning C4005: 'TEXT': macro redefinition
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winnt.h(584): note: see previous definition of 'TEXT'
-c:\users\dylan\desktop\gamedev\projects\textbased_group_rpg\space_escape\space_escape\space_escape.cpp(14): warning C4005: 'SND_SYNC': macro redefinition
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\playsoundapi.h(68): note: see previous definition of 'SND_SYNC'
   space_escape.vcxproj -> C:\Users\Dylan\Desktop\GameDev\Projects\textBased_group_RPG\space_escape\Debug\space_escape.exe
