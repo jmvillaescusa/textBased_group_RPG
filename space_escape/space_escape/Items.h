@@ -1,34 +1,31 @@
+//JEFF
+
+#pragma once
 #ifndef ITEMS
 #define ITEMS
 
-// ITEM STATS!
 #include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm> 
+
 using namespace std;
+
+//ITEMS STATS!
 
 class Items {
 
 private:
 
-	int health;
-	int damage;
-	int defence;
+	int health = 100;
 
 public:
 
-
-	//Getters
-	int GetHeath() { return health; }
-	int GetDamage() { return damage; }
-	int GetDefence() { return defence; }
-
-	//Setters
-	void SetHealth(int h) { health = h; }
-	void SetDamage(int d) { damage = d; }
-	void SetDefence(int f) { defence = f; }
+	//getter
+	int getHealth() { return health; }
+	//setter
+	void setHealth(int h_health) { health = h_health; }
 
 
 };
-
 #endif // !ITEMS
-
-
