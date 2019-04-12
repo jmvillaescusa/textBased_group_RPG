@@ -3,8 +3,7 @@
 #include "Basestat.h"
 #include "Enemy.h"
 #include "Guards.h"
-#include "Player.h"
-#include <conio.h>
+#include "Movement.h"
 #include "Fight.h"
 #include <iostream>
 
@@ -14,9 +13,7 @@
 #define KEY_LEFT 75
 #define KEY_RIGHT 77
 
-Player player;
-GuardClass Guard;
-Fight fight;
+Movement*movement = new Movement();
 
 void MenuScreen();
 void Game();
@@ -42,6 +39,7 @@ void MenuScreen() {
 	cin >> ans;
 
 	if (ans == 'y') {
+		system("CLS");
 		Game();
 
 	}
@@ -62,19 +60,20 @@ void Game() {
 	int playerPosY = 1;
 
 	while (isRunning) {
-		player.Update();
-
+		movement->Move();
+		//player.Update();
+		/*
 		if (player.getHealth() > 0) {
 			isRunning = true;
 		}
 		else {
 			isRunning = false;
 		}
-
+		*/
 		//Player Movement
 	}
 
-	fight.Death();
+	//fight->Death();
 	system("CLS");
 	EndGame();
 
@@ -82,10 +81,8 @@ void Game() {
 void EndGame() {
 	cout << "\n\n\n\tGood Game!" << endl;
 	cout << "\n\tHope Your had fun here are the developers names: " << endl;
-	cout << "\t" << endl;
-	cout << "\t" << endl;
-	cout << "\t" << endl;
-	cout << "\t" << endl;
-
-
+	cout << "\tAaron Bisbal" << endl;
+	cout << "\tDylan Rampersad" << endl;
+	cout << "\tJaimeson Mario Villaescusa" << endl;
+	cout << "\tJeffrey Pires" << endl;
 }

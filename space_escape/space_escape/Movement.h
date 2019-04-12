@@ -1,9 +1,13 @@
 //Jaimeson
+//Dylan
 #pragma once
 #include <conio.h>
 #include "frames.h"
 #include "Player.h"
 #include "Map.h"
+#include "Fight.h"
+#include "Guards.h"
+#include "Enemy.h"
 
 class Movement {
 private:
@@ -20,5 +24,4 @@ public:
 	~Movement();
 
 	void Move();
-	int TransitionScreen();
 };
