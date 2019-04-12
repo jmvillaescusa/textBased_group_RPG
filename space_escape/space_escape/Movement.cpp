@@ -2,7 +2,7 @@
 //Dylan
 #include "Movement.h"
 Map *map = new Map();
-Player* player = new Player();
+Player *player = new Player();
 GuardClass *guard = new GuardClass();
 Frames *frames = new Frames();
 Fight *fight = new Fight();
@@ -21,7 +21,6 @@ Movement::~Movement() {
 void Movement::Move() {
 	frames->Update();
 	int c = 0;
-	bool isPlaying = true;
 	while (isPlaying) {
 		if (frames->DeltaTime() >= (1.0 / frames->GetFrameRate())) {
 			switch ((c = _getch())) {

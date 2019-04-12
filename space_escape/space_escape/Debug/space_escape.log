@@ -1,5 +1,2 @@
-﻿  Map.cpp
-  Movement.cpp
-  space_escape.cpp
-  Generating Code...
+﻿  GameState.cpp
   space_escape.vcxproj -> C:\_Projects\GameDev\textBased_group_RPG\space_escape\Debug\space_escape.exe
