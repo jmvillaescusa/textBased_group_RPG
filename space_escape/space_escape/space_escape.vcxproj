@@ -157,6 +157,7 @@
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="frames.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GameState.h" />
     <ClInclude Include="Guards.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Movement.h" />
@@ -167,6 +168,7 @@
     <ClCompile Include="frames.cpp" />
     <ClCompile Include="Boss.cpp" />
     <ClCompile Include="Fight.cpp" />
+    <ClCompile Include="GameState.cpp" />
     <ClCompile Include="Guards.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Movement.cpp" />

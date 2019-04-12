@@ -1,8 +1,14 @@
 #include "Fight.h"
+#include "GameState.h"
 
+GameState*state = new GameState();
 Fight::Fight() {
 
-}; Fight::~Fight() {};
+}; Fight::~Fight() {
+	delete state; state = nullptr;
+};
+
+
 
 void Fight::PlayerTurn(BaseStatClass* player, BaseStatClass* enemy) 
 {
@@ -47,9 +53,14 @@ void Fight::SingleEnemy(BaseStatClass* player, BaseStatClass* enemy)
 		if (player->getSpeed() > enemy->getSpeed()) {
 			while (enemy->getHealth() > 0 && player->getHealth() > 0) 
 			{
+				if (player->getHealth() <= 0) {
+					state->setRunning(false);
+					
+				}
 				PlayerTurn(player, enemy);
 				if (enemy->getHealth() > 0) {
 					EnemyTurn(player, enemy);
+
 				}
 			}
 			
@@ -75,7 +86,8 @@ void Fight::SingleEnemy(BaseStatClass* player, BaseStatClass* enemy)
 		enemy->setHealth(100);
 	}
 	else {
-		cout << "YOU DIED! LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOL" << endl;
+		cout << "YOU DIED!" << endl;
+		state->endGame();
 	}
 	//======================================================================add items here when working(reward)================================================================
 
