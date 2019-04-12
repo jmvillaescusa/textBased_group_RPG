@@ -49,8 +49,6 @@ void Movement::Move() {
 					map.world[map.getAreaIndex()][player.getPlayerPosY()][player.getPlayerPosX()] = 3;
 				}
 				map.DislayMap();
-				std::cout << player.getPlayerPosX() << std::endl;
-				std::cout << map.getAreaIndex() << std::endl;
 				break;
 			case KEY_RIGHT:
 				if (map.world[map.getAreaIndex()][player.getPlayerPosY()][player.getPlayerPosX() + 1] == 1 || map.world[map.getAreaIndex()][player.getPlayerPosY()][player.getPlayerPosX() + 1] == 5) {
@@ -67,8 +65,6 @@ void Movement::Move() {
 					map.world[map.getAreaIndex()][player.getPlayerPosY()][player.getPlayerPosX()] = 3;
 				}
 				map.DislayMap();
-				std::cout << player.getPlayerPosX() << std::endl;
-				std::cout << map.getAreaIndex() << std::endl;
 				break;
 			}
 		}

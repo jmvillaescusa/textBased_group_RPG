@@ -1,7 +1,2 @@
-﻿  Map.cpp
-  Movement.cpp
-  Player.cpp
-  space_escape.cpp
-  Generating Code...
-c:\_projects\gamedev\textbased_group_rpg\space_escape\space_escape\map.cpp(31): warning C4715: 'Map::MapIndex': not all control paths return a value
-  space_escape.vcxproj -> C:\_Projects\GameDev\textBased_group_RPG\space_escape\Debug\space_escape.exe
+﻿  Movement.cpp
+  space_escape.vcxproj -> C:\Users\Jaimeson\Documents\GitHub\textBased_group_RPG\space_escape\Debug\space_escape.exe
