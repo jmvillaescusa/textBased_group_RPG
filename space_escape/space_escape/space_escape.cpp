@@ -1,22 +1,49 @@
+//Jaimeson
 #include "Map.h"
-#include "Player.h"
-#include <conio.h>
+#include "Basestat.h"
 #include "Enemy.h"
 #include "Guards.h"
+#include "Player.h"
+#include <conio.h>
+#include "Fight.h"
 #include <iostream>
-#include <Windows.h>
-#include <mmsystem.h>
+
+
 
 int main()
 {
 	
-	/*mciSendString("(open\"Halo_2.mp3\"mp3", NULL, 0, NULL);
-	mciSendString("play mp3", NULL, 0, NULL);
-	mciSendString("play mp3 wait", NULL, 0, NULL);*/
-	Player player;
+
+	MenuScreen();
+
+	return 0;
+}
+
+void MenuScreen() {
+
+	bool IsOnMenu = true;
+	char ans;
+
+	cout << "" << endl;
+
+	cout << "\n\n\n\n\tWould You like to play the game Yes = 'y', No = 'n'. " << endl;
+	cin >> ans;
+
+	if (ans == 'y') {
+		Game();
+
+	}
+	else if (ans == 'n')
+	{
+		EndGame();
+		return;
+	}
+}
+
+void Game() {
+
 	bool isRunning = true;
-	int playerPosY = 1;
-	GuardClass Guard;
+
 	Map m;
 	m.DislayMap();
 
@@ -36,5 +63,34 @@ int main()
 	
 
 
-	return 0;
+	int c = 0;
+	int playerPosX = 4;
+	int playerPosY = 1;
+
+	while (isRunning) {
+		player.Update();
+
+		if (player.getHealth() > 0) {
+			isRunning = true;
+		}
+		else {
+			isRunning = false;
+		}
+
+		//Player Movement
+	}
+
+	fight.Death();
+	system("CLS");
+	EndGame();
+
+}
+void EndGame() {
+	cout << "\n\n\n\tGood Game!" << endl;
+	cout << "\n\tHope Your had fun here are the developers names: " << endl;
+	cout << "\t" << endl;
+	cout << "\t" << endl;
+	cout << "\t" << endl;
+	cout << "\t" << endl;
+
 }

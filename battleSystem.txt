@@ -1,12 +1,13 @@
 - Turned-based combat
 - The player encounters an enemy as they move through the map (esentially random encounters)
+- Every regular encounter there is a chance to fight between 1-3 enemies
 - boss battles 
 - The battle ends when either the enemies or the player dies first
   - If the enemies dies first, the player will be rewarded EXP points and maybe an item (healing items, objective related items, etc.)
   - If the player dies, game over
 - Turn order will be determined by speed stat
   - For example:
-    - Fighting an enemy:
+    - Fighting a regular enemy:
       1. Player
       2. Enemy
     - Fighting multiple enemies:

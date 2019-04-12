@@ -3,21 +3,22 @@
 #pragma once
 #include <time.h>
 #include "Basestat.h"
-#include "Map.h"
-#include "frames.h"
+#include "Movement.h"
 
 class Player : public BaseStatClass {
 private:
 	int luck;
-	
+	int playerPosX;
+	int playerPosY;
+
 public:
-	int playerHealth = 100;
-	int playerSpeed = 50;
-	int playerDefense = 40;
-	int getLuck() { return luck; }
-	void setLuck(int m_luck) { luck = m_luck; }
-	int playerPosX = 4;
-	int playerPosY = 1;
+
+	int getPlayerPosX() { return playerPosX; }
+	int getPlayerPosY() { return playerPosY; }
+
+	void setPlayerPosX(int x) { playerPosX = x; }
+	void setPlayerPosY(int y) { playerPosY = y; }
+
 	void Update();
 	Player();
 	~Player();
@@ -27,9 +28,9 @@ public:
 	//Getters
 	int getPlayerPosY() { return playerPosY; }
 	int getPlayerPosX() { return playerPosX; }
-	int getPlayerHealth() { return playerHealth; }
-	int getPlayerSpeed() { return playerSpeed; }
-	int getPlayerDefense() { return playerDefense; }
+	int getHealth() { return health; }
+	int getSpeed() { return speed; }
+	int getrDefense() { return defense; }
 	void getPlayerInfo() { return playerInfo(); }
 
 	//Setters

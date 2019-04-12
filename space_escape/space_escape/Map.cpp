@@ -1,7 +1,8 @@
+//Jaimeson
 #include "Map.h"
 
 Map::Map() {
-	
+	areaIndex = 0;
 }; Map::~Map() {};
 
 void Map::DislayMap() {
@@ -9,7 +10,8 @@ void Map::DislayMap() {
 	char temp;
 	for (int i = 0; i < 11; i++) {
 		for (int j = 0; j < 20; j++) {
-			temp = MapIndex(area1_1[i][j]);
+			temp = MapIndex(area[i][j]);
+			temp = MapIndex(world[areaIndex][i][j]);
 			std::cout << temp;
 		}
 		std::cout << std::endl;
