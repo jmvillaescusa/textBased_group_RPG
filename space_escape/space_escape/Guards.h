@@ -22,7 +22,6 @@ public:
 
 	//function to display guard dialogue
 	void GuardDialogue(int);
-
 };
 
 

@@ -3,13 +3,17 @@
 #pragma once
 #include <time.h>
 #include "Basestat.h"
-#include "Movement.h"
 
 class Player : public BaseStatClass {
 private:
 	int luck;
+<<<<<<< HEAD
 	int playerPosX;
 	int playerPosY;
+=======
+	int playerPosX = 4;
+	int playerPosY = 1;
+>>>>>>> master
 
 public:
 
@@ -18,6 +22,8 @@ public:
 
 	void setPlayerPosX(int x) { playerPosX = x; }
 	void setPlayerPosY(int y) { playerPosY = y; }
+
+	void playerInfo();
 
 	void Update();
 	Player();

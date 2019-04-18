@@ -1,9 +1,7 @@
 //Jaimeson
+//Dylan
 #pragma once
-#include <conio.h>
-#include "frames.h"
-#include "Player.h"
-#include "Map.h"
+#include "GameState.h"
 
 class Movement {
 private:
@@ -13,12 +11,11 @@ private:
 	#define KEY_LEFT 75
 	#define KEY_RIGHT 77
 
-	int posX = 4;
+	bool isPlaying = true;
 
 public:
 	Movement();
 	~Movement();
 
 	void Move();
-	int TransitionScreen();
 };

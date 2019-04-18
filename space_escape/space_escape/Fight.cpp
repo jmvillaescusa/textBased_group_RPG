@@ -1,8 +1,14 @@
 #include "Fight.h"
+#include "GameState.h"
 
+GameState*state = new GameState();
 Fight::Fight() {
 
-}; Fight::~Fight() {};
+}; Fight::~Fight() {
+	delete state; state = nullptr;
+};
+
+
 
 void Fight::PlayerTurn(BaseStatClass* player, BaseStatClass* enemy) 
 {
@@ -11,6 +17,7 @@ void Fight::PlayerTurn(BaseStatClass* player, BaseStatClass* enemy)
 	//with a a param of the enemies health - the players attackpower
 
 	cout << "Player attacks for " << player->getPower() << endl;
+	
 	//this displace the attack power that gets decrease from the health of the senemy
 
 	cout << "Enemy health is now " << enemy->getHealth() << endl;
@@ -23,7 +30,7 @@ void Fight::EnemyTurn(BaseStatClass* player, BaseStatClass* enemy)
 {
 
 		cout << "The enemy is attacking now attacking .... " << endl;
-		enemy->setHealth((player->getHealth() + player->getDefense()) - enemy->getPower());
+		player->setHealth((player->getHealth() + player->getDefense()) - enemy->getPower());
 		//this line sets the health of the player after the battle 
 		//with a a param of the player health - the enemy attackpower
 
@@ -42,12 +49,19 @@ void Fight::SingleEnemy(BaseStatClass* player, BaseStatClass* enemy)
 	
 	//this loop will keep going untill one is declared dead
 	while (isBattling == true) {
-
+		std::cout << "\n";
 		if (player->getSpeed() > enemy->getSpeed()) {
 			while (enemy->getHealth() > 0 && player->getHealth() > 0) 
 			{
+				if (player->getHealth() <= 0) {
+					state->setRunning(false);
+					
+				}
 				PlayerTurn(player, enemy);
-				EnemyTurn(player, enemy);
+				if (enemy->getHealth() > 0) {
+					EnemyTurn(player, enemy);
+
+				}
 			}
 			
 			isBattling = false;
@@ -58,14 +72,23 @@ void Fight::SingleEnemy(BaseStatClass* player, BaseStatClass* enemy)
 			EnemyTurn(player, enemy);
 			while (enemy->getHealth() > 0 && player->getHealth() > 0)
 			{
-				PlayerTurn(player, enemy);
 				EnemyTurn(player, enemy);
+				if (player->getHealth() > 0) {
+					PlayerTurn(player, enemy);
+				}
 			}
 			isBattling = false;
 		}
 		
 	}
-	cout << "You killed the enemy." << endl;
+	if (enemy->getHealth() < 0) {
+		cout << "You killed the enemy." << endl;
+		enemy->setHealth(100);
+	}
+	else {
+		cout << "YOU DIED!" << endl;
+		state->endGame();
+	}
 	//======================================================================add items here when working(reward)================================================================
 
 };

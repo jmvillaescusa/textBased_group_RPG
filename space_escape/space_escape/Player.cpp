@@ -2,9 +2,12 @@
 
 #include "Player.h"
 
+<<<<<<< HEAD
 Movement movement;
 
 
+=======
+>>>>>>> master
 Player::Player() {
 	//player stats/variables
 	setHealth(100);
@@ -14,17 +17,21 @@ Player::Player() {
 } Player::~Player(){}
 
 void Player::Update() {
+<<<<<<< HEAD
 
 	movement.Move();
 
+=======
+	//movement.Move();
+>>>>>>> master
 }
 
 void Player::playerInfo() {
 	cout << endl;
 	cout << "Player Stats:" << endl;
-	cout << getPlayerHealth() << endl;
-	cout << getPlayerSpeed() << endl;
-	cout << getPlayerDefense() << endl;
+	cout << getHealth() << endl;
+	cout << getSpeed() << endl;
+	cout << getDefense() << endl;
 
 }
 

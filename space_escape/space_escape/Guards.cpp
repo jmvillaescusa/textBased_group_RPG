@@ -2,7 +2,7 @@
 
 GuardClass::GuardClass() {
 	setHealth(100);
-	setPower(5);
+	setPower(500);
 	setDefense(10);
 	setSpeed(20);
 } GuardClass::~GuardClass(){}

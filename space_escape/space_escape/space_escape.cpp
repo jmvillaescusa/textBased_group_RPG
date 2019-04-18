@@ -1,18 +1,13 @@
 //Jaimeson
-#include "Map.h"
-#include "Basestat.h"
-#include "Enemy.h"
-#include "Guards.h"
-#include "Player.h"
-#include <conio.h>
-#include "Fight.h"
-#include <iostream>
+#include "GameState.h"
 
 
+GameState*gameState = new GameState();
 
 int main()
 {
 	
+<<<<<<< HEAD
 
 	MenuScreen();
 
@@ -78,4 +73,9 @@ void EndGame() {
 	cout << "\t" << endl;
 	cout << "\t" << endl;
 
+=======
+	gameState->tittleScreen();
+
+	return 0;
+>>>>>>> master
 }
